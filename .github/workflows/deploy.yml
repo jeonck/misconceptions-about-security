@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: 20
       - name: Install dependencies
-        run: cd react-app && npm install
+        run: cd react-app && npm ci
       - name: Build
         run: cd react-app && npm run build
       - name: Upload artifact
