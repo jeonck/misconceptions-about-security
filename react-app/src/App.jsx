@@ -34,7 +34,7 @@ function App() {
             <main className="md:col-span-3">
               <div className="bg-black/20 backdrop-blur-xl rounded-2xl shadow-2xl border border-white/10 overflow-hidden">
                 <div className="px-4 py-5 sm:px-6">
-                  <h2 className="text-2xl font-bold text-gray-900">{selectedCategory.category}</h2>
+                  <h2 className="text-2xl font-bold text-white">{selectedCategory.category}</h2>
                   <p className="mt-1 text-sm text-gray-300">{selectedCategory.description}</p>
                 </div>
                 <div className="border-t border-white/10">
