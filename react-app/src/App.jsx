@@ -49,6 +49,7 @@ function App() {
                         <dd className="mt-1 text-sm text-white sm:mt-0 sm:col-span-2">
                           <p><span className="font-semibold">올바른 인식:</span> {item.reality}</p>
                           <p className="mt-2"><span className="font-semibold">사례:</span> {item.case}</p>
+                          <p className="mt-2"><span className="font-semibold">대응:</span> {item.response}</p>
                         </dd>
                       </div>
                     ))}
